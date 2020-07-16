@@ -90,6 +90,7 @@ public class SplashScreen : MonoBehaviour
         }
 
     }
+
     private void SplashScreenFadeOut() {
         splashScreenController = SplashScreenController.SplashScreenFadeOut;
         Debug.Log("SplashScreenFadeOut");

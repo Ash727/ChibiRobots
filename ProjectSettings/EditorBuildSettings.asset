@@ -11,4 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ControllerWarning.unity
     guid: 9ec6527aaeea3e84892da70287e0f953
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 4b73e7bae5b0e4e3a91542ece99276e0,
+      type: 2}
