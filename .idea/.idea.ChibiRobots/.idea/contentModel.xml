@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="AltUnityDriver.csproj" t="IncludeRecursive" />
+      <e p="AltUnityTester.csproj" t="IncludeRecursive" />
+      <e p="AltUnityTesterEditor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="3rdPartyAssets" t="Include">
+          <e p="Chibi_characters" t="Include">
+            <e p="PostProcessing" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Attributes" t="Include">
+                  <e p="PostProcessingModelEditorAttribute.cs" t="Include" />
+                </e>
+                <e p="Models" t="Include">
+                  <e p="AmbientOcclusionModelEditor.cs" t="Include" />
+                  <e p="AntialiasingModelEditor.cs" t="Include" />
+                  <e p="BloomModelEditor.cs" t="Include" />
+                  <e p="BuiltinDebugViewsEditor.cs" t="Include" />
+                  <e p="ChromaticAberrationEditor.cs" t="Include" />
+                  <e p="ColorGradingModelEditor.cs" t="Include" />
+                  <e p="DefaultPostFxModelEditor.cs" t="Include" />
+                  <e p="DepthOfFieldModelEditor.cs" t="Include" />
+                  <e p="EyeAdaptationModelEditor.cs" t="Include" />
+                  <e p="GrainModelEditor.cs" t="Include" />
+                  <e p="MotionBlurModelEditor.cs" t="Include" />
+                  <e p="ScreenSpaceReflectionModelEditor.cs" t="Include" />
+                  <e p="UserLutModelEditor.cs" t="Include" />
+                  <e p="VignetteModelEditor.cs" t="Include" />
+                </e>
+                <e p="Monitors" t="Include">
+                  <e p="HistogramMonitor.cs" t="Include" />
+                  <e p="ParadeMonitor.cs" t="Include" />
+                  <e p="VectorscopeMonitor.cs" t="Include" />
+                  <e p="WaveformMonitor.cs" t="Include" />
+                </e>
+                <e p="PostProcessingBehaviourEditor.cs" t="Include" />
+                <e p="PostProcessingFactory.cs" t="Include" />
+                <e p="PostProcessingInspector.cs" t="Include" />
+                <e p="PostProcessingModelEditor.cs" t="Include" />
+                <e p="PostProcessingMonitor.cs" t="Include" />
+                <e p="PropertyDrawers" t="Include">
+                  <e p="GetSetDrawer.cs" t="Include" />
+                  <e p="MinDrawer.cs" t="Include" />
+                  <e p="TrackballGroupDrawer.cs" t="Include" />
+                </e>
+                <e p="Utils" t="Include">
+                  <e p="CurveEditor.cs" t="Include" />
+                  <e p="EditorGUIHelper.cs" t="Include" />
+                  <e p="EditorResources.cs" t="Include" />
+                  <e p="FxStyles.cs" t="Include" />
+                  <e p="ReflectionUtils.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Editor Resources" t="Include">
+                <e p="Monitors" t="Include">
+                  <e p="HistogramCompute.compute" t="Include" />
+                  <e p="HistogramRender.shader" t="Include" />
+                  <e p="ParadeRender.shader" t="Include" />
+                  <e p="VectorscopeCompute.compute" t="Include" />
+                  <e p="VectorscopeRender.shader" t="Include" />
+                  <e p="WaveformCompute.compute" t="Include" />
+                  <e p="WaveformRender.shader" t="Include" />
+                </e>
+                <e p="UI" t="Include">
+                  <e p="CurveBackground.shader" t="Include" />
+                  <e p="Trackball.shader" t="Include" />
+                </e>
+              </e>
+              <e p="Resources" t="Include">
+                <e p="Shaders" t="Include">
+                  <e p="ACES.cginc" t="Include" />
+                  <e p="AmbientOcclusion.cginc" t="Include" />
+                  <e p="AmbientOcclusion.shader" t="Include" />
+                  <e p="Blit.shader" t="Include" />
+                  <e p="Bloom.cginc" t="Include" />
+                  <e p="Bloom.shader" t="Include" />
+                  <e p="BuiltinDebugViews.shader" t="Include" />
+                  <e p="ColorGrading.cginc" t="Include" />
+                  <e p="Common.cginc" t="Include" />
+                  <e p="DepthOfField.cginc" t="Include" />
+                  <e p="DepthOfField.shader" t="Include" />
+                  <e p="DiskKernels.cginc" t="Include" />
+                  <e p="EyeAdaptation.cginc" t="Include" />
+                  <e p="EyeAdaptation.shader" t="Include" />
+                  <e p="EyeHistogram.compute" t="Include" />
+                  <e p="FXAA.shader" t="Include" />
+                  <e p="FXAA3.cginc" t="Include" />
+                  <e p="GrainGen.shader" t="Include" />
+                  <e p="LutGen.shader" t="Include" />
+                  <e p="MotionBlur.cginc" t="Include" />
+                  <e p="MotionBlur.shader" t="Include" />
+                  <e p="ScreenSpaceRaytrace.cginc" t="Include" />
+                  <e p="ScreenSpaceReflection.shader" t="Include" />
+                  <e p="TAA.cginc" t="Include" />
+                  <e p="TAA.shader" t="Include" />
+                  <e p="Tonemapping.cginc" t="Include" />
+                  <e p="Uber.shader" t="Include" />
+                </e>
+              </e>
+              <e p="Runtime" t="Include">
+                <e p="Attributes" t="Include">
+                  <e p="GetSetAttribute.cs" t="Include" />
+                  <e p="MinAttribute.cs" t="Include" />
+                  <e p="TrackballAttribute.cs" t="Include" />
+                  <e p="TrackballGroupAttribute.cs" t="Include" />
+                </e>
+                <e p="Components" t="Include">
+                  <e p="AmbientOcclusionComponent.cs" t="Include" />
+                  <e p="BloomComponent.cs" t="Include" />
+                  <e p="BuiltinDebugViewsComponent.cs" t="Include" />
+                  <e p="ChromaticAberrationComponent.cs" t="Include" />
+                  <e p="ColorGradingComponent.cs" t="Include" />
+                  <e p="DepthOfFieldComponent.cs" t="Include" />
+                  <e p="EyeAdaptationComponent.cs" t="Include" />
+                  <e p="FxaaComponent.cs" t="Include" />
+                  <e p="GrainComponent.cs" t="Include" />
+                  <e p="MotionBlurComponent.cs" t="Include" />
+                  <e p="ScreenSpaceReflectionComponent.cs" t="Include" />
+                  <e p="TaaComponent.cs" t="Include" />
+                  <e p="UserLutComponent.cs" t="Include" />
+                  <e p="VignetteComponent.cs" t="Include" />
+                </e>
+                <e p="Models" t="Include">
+                  <e p="AmbientOcclusionModel.cs" t="Include" />
+                  <e p="AntialiasingModel.cs" t="Include" />
+                  <e p="BloomModel.cs" t="Include" />
+                  <e p="BuiltinDebugViewsModel.cs" t="Include" />
+                  <e p="ChromaticAberrationModel.cs" t="Include" />
+                  <e p="ColorGradingModel.cs" t="Include" />
+                  <e p="DepthOfFieldModel.cs" t="Include" />
+                  <e p="EyeAdaptationModel.cs" t="Include" />
+                  <e p="GrainModel.cs" t="Include" />
+                  <e p="MotionBlurModel.cs" t="Include" />
+                  <e p="ScreenSpaceReflectionModel.cs" t="Include" />
+                  <e p="UserLutModel.cs" t="Include" />
+                  <e p="VignetteModel.cs" t="Include" />
+                </e>
+                <e p="PostProcessingBehaviour.cs" t="Include" />
+                <e p="PostProcessingComponent.cs" t="Include" />
+                <e p="PostProcessingContext.cs" t="Include" />
+                <e p="PostProcessingModel.cs" t="Include" />
+                <e p="PostProcessingProfile.cs" t="Include" />
+                <e p="Utils" t="Include">
+                  <e p="ColorGradingCurve.cs" t="Include" />
+                  <e p="GraphicsUtils.cs" t="Include" />
+                  <e p="MaterialFactory.cs" t="Include" />
+                  <e p="RenderTextureFactory.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="SKY city lite" t="Include">
+            <e p="Editor" t="Include">
+              <e p="CrossPlatformInput" t="Include">
+                <e p="CrossPlatformInputInitialize.cs" t="Include" />
+              </e>
+              <e p="ImageEffects" t="Include">
+                <e p="AntialiasingEditor.cs" t="Include" />
+                <e p="BloomAndFlaresEditor.cs" t="Include" />
+                <e p="BloomEditor.cs" t="Include" />
+                <e p="CameraMotionBlurEditor.cs" t="Include" />
+                <e p="ColorCorrectionCurvesEditor.cs" t="Include" />
+                <e p="ColorCorrectionLookupEditor.cs" t="Include" />
+                <e p="DepthOfFieldDeprecatedEditor.cs" t="Include" />
+                <e p="DepthOfFieldEditor.cs" t="Include" />
+                <e p="EdgeDetectionEditor.cs" t="Include" />
+                <e p="NoiseAndGrainEditor.cs" t="Include" />
+                <e p="SunShaftsEditor.cs" t="Include" />
+                <e p="TonemappingEditor.cs" t="Include" />
+                <e p="VignetteAndChromaticAberrationEditor.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Foliage" t="Include">
+              <e p="Materials" t="Include">
+                <e p="Vegetation.shader" t="Include" />
+              </e>
+            </e>
+            <e p="Standard Assets" t="Include">
+              <e p="Characters" t="Include">
+                <e p="FirstPersonCharacter" t="Include">
+                  <e p="FirstPersonCharacterGuidelines.txt" t="Include" />
+                  <e p="Scripts" t="Include">
+                    <e p="FirstPersonController.cs" t="Include" />
+                    <e p="HeadBob.cs" t="Include" />
+                    <e p="MouseLook.cs" t="Include" />
+                    <e p="RigidbodyFirstPersonController.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="RollerBall" t="Include">
+                  <e p="RollerBallGuidelines.txt" t="Include" />
+                  <e p="Scripts" t="Include">
+                    <e p="Ball.cs" t="Include" />
+                    <e p="BallUserControl.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="ThirdPersonCharacter" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="AICharacterControl.cs" t="Include" />
+                    <e p="ThirdPersonCharacter.cs" t="Include" />
+                    <e p="ThirdPersonUserControl.cs" t="Include" />
+                  </e>
+                  <e p="ThirdPersonCharacterGuidelines.txt" t="Include" />
+                </e>
+              </e>
+              <e p="CrossPlatformInput" t="Include">
+                <e p="CrossPlatformInputGuidelines.txt" t="Include" />
+                <e p="Scripts" t="Include">
+                  <e p="AxisTouchButton.cs" t="Include" />
+                  <e p="ButtonHandler.cs" t="Include" />
+                  <e p="CrossPlatformInputManager.cs" t="Include" />
+                  <e p="InputAxisScrollbar.cs" t="Include" />
+                  <e p="Joystick.cs" t="Include" />
+                  <e p="MobileControlRig.cs" t="Include" />
+                  <e p="PlatformSpecific" t="Include">
+                    <e p="MobileInput.cs" t="Include" />
+                    <e p="StandaloneInput.cs" t="Include" />
+                  </e>
+                  <e p="TiltInput.cs" t="Include" />
+                  <e p="TouchPad.cs" t="Include" />
+                  <e p="VirtualInput.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Effects" t="Include">
+                <e p="GlassRefraction" t="Include">
+                  <e p="Shaders" t="Include">
+                    <e p="GlassStainedBumpDistort.shader" t="Include" />
+                  </e>
+                </e>
+                <e p="ImageEffects" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="Antialiasing.cs" t="Include" />
+                    <e p="Bloom.cs" t="Include" />
+                    <e p="BloomAndFlares.cs" t="Include" />
+                    <e p="BloomOptimized.cs" t="Include" />
+                    <e p="Blur.cs" t="Include" />
+                    <e p="BlurOptimized.cs" t="Include" />
+                    <e p="CameraMotionBlur.cs" t="Include" />
+                    <e p="ColorCorrectionCurves.cs" t="Include" />
+                    <e p="ColorCorrectionLookup.cs" t="Include" />
+                    <e p="ColorCorrectionRamp.cs" t="Include" />
+                    <e p="ContrastEnhance.cs" t="Include" />
+                    <e p="ContrastStretch.cs" t="Include" />
+                    <e p="CreaseShading.cs" t="Include" />
+                    <e p="DepthOfField.cs" t="Include" />
+                    <e p="DepthOfFieldDeprecated.cs" t="Include" />
+                    <e p="EdgeDetection.cs" t="Include" />
+                    <e p="Fisheye.cs" t="Include" />
+                    <e p="GlobalFog.cs" t="Include" />
+                    <e p="Grayscale.cs" t="Include" />
+                    <e p="ImageEffectBase.cs" t="Include" />
+                    <e p="ImageEffects.cs" t="Include" />
+                    <e p="MotionBlur.cs" t="Include" />
+                    <e p="NoiseAndGrain.cs" t="Include" />
+                    <e p="NoiseAndScratches.cs" t="Include" />
+                    <e p="PostEffectsBase.cs" t="Include" />
+                    <e p="PostEffectsHelper.cs" t="Include" />
+                    <e p="Quads.cs" t="Include" />
+                    <e p="ScreenOverlay.cs" t="Include" />
+                    <e p="ScreenSpaceAmbientObscurance.cs" t="Include" />
+                    <e p="ScreenSpaceAmbientOcclusion.cs" t="Include" />
+                    <e p="SepiaTone.cs" t="Include" />
+                    <e p="SunShafts.cs" t="Include" />
+                    <e p="TiltShift.cs" t="Include" />
+                    <e p="Tonemapping.cs" t="Include" />
+                    <e p="Triangles.cs" t="Include" />
+                    <e p="Twirl.cs" t="Include" />
+                    <e p="VignetteAndChromaticAberration.cs" t="Include" />
+                    <e p="Vortex.cs" t="Include" />
+                  </e>
+                  <e p="Shaders" t="Include">
+                    <e p="_Antialiasing" t="Include">
+                      <e p="DLAA.shader" t="Include" />
+                      <e p="FXAA2.shader" t="Include" />
+                      <e p="FXAA3Console.shader" t="Include" />
+                      <e p="FXAAPreset2.shader" t="Include" />
+                      <e p="FXAAPreset3.shader" t="Include" />
+                      <e p="NFAA.shader" t="Include" />
+                      <e p="SSAA.shader" t="Include" />
+                    </e>
+                    <e p="_BloomAndFlares" t="Include">
+                      <e p="Blend.shader" t="Include" />
+                      <e p="BlendForBloom.shader" t="Include" />
+                      <e p="BlendOneOne.shader" t="Include" />
+                      <e p="BlurAndFlares.shader" t="Include" />
+                      <e p="BrightPassFilter.shader" t="Include" />
+                      <e p="BrightPassFilter2.shader" t="Include" />
+                      <e p="LensFlareCreate.shader" t="Include" />
+                      <e p="MobileBloom.shader" t="Include" />
+                      <e p="MobileBlur.shader" t="Include" />
+                      <e p="MultiPassHollywoodFlares.shader" t="Include" />
+                      <e p="SeparableBlurPlus.shader" t="Include" />
+                      <e p="VignetteShader.shader" t="Include" />
+                    </e>
+                    <e p="_DepthOfField" t="Include">
+                      <e p="Bokeh34.shader" t="Include" />
+                      <e p="DepthOfField34.shader" t="Include" />
+                      <e p="DepthOfFieldDX11.shader" t="Include" />
+                      <e p="DepthOfFieldScatter.shader" t="Include" />
+                      <e p="SeparableBlur.shader" t="Include" />
+                      <e p="SeparableWeightedBlurDof34.shader" t="Include" />
+                      <e p="TiltShiftHdrLensBlur.shader" t="Include" />
+                    </e>
+                    <e p="BlendModesOverlay.shader" t="Include" />
+                    <e p="BlurEffectConeTaps.shader" t="Include" />
+                    <e p="CameraMotionBlur.shader" t="Include" />
+                    <e p="CameraMotionBlurDX11.shader" t="Include" />
+                    <e p="ChromaticAberrationShader.shader" t="Include" />
+                    <e p="ColorCorrection3DLut.shader" t="Include" />
+                    <e p="ColorCorrectionCurves.shader" t="Include" />
+                    <e p="ColorCorrectionCurvesSimple.shader" t="Include" />
+                    <e p="ColorCorrectionEffect.shader" t="Include" />
+                    <e p="ColorCorrectionSelective.shader" t="Include" />
+                    <e p="Contrast Stretch" t="Include">
+                      <e p="Adaptation.shader" t="Include" />
+                      <e p="Apply.shader" t="Include" />
+                      <e p="Luminance.shader" t="Include" />
+                      <e p="MinMaxReduction.shader" t="Include" />
+                    </e>
+                    <e p="ContrastComposite.shader" t="Include" />
+                    <e p="ConvertDepth.shader" t="Include" />
+                    <e p="CreaseApply.shader" t="Include" />
+                    <e p="EdgeDetectNormals.shader" t="Include" />
+                    <e p="FisheyeShader.shader" t="Include" />
+                    <e p="frag_ao.cginc" t="Include" />
+                    <e p="GlobalFog.shader" t="Include" />
+                    <e p="GrayscaleEffect.shader" t="Include" />
+                    <e p="MotionBlur.shader" t="Include" />
+                    <e p="MotionBlurClear.shader" t="Include" />
+                    <e p="NoiseAndGrain.shader" t="Include" />
+                    <e p="NoiseAndGrainDX11.shader" t="Include" />
+                    <e p="NoiseEffectShaderRGB.shader" t="Include" />
+                    <e p="NoiseEffectShaderYUV.shader" t="Include" />
+                    <e p="PrepareSunShaftsBlur.shader" t="Include" />
+                    <e p="RadialBlur.shader" t="Include" />
+                    <e p="ScreenSpaceAmbientObscurance.shader" t="Include" />
+                    <e p="SepiaToneEffect.shader" t="Include" />
+                    <e p="ShowAlphaChannel.shader" t="Include" />
+                    <e p="SimpleClear.shader" t="Include" />
+                    <e p="SSAOShader.shader" t="Include" />
+                    <e p="SunShaftsComposite.shader" t="Include" />
+                    <e p="Tonemapper.shader" t="Include" />
+                    <e p="TwirlEffect.shader" t="Include" />
+                    <e p="VignettingShader.shader" t="Include" />
+                    <e p="VortexEffect.shader" t="Include" />
+                  </e>
+                </e>
+                <e p="Projectors" t="Include">
+                  <e p="Guidelines.txt" t="Include" />
+                  <e p="Shaders" t="Include">
+                    <e p="ProjectorLight.shader" t="Include" />
+                    <e p="ProjectorMultiply.shader" t="Include" />
+                  </e>
+                </e>
+                <e p="TessellationShaders" t="Include">
+                  <e p="Shaders" t="Include">
+                    <e p="BumpedSpecularDisplacement.shader" t="Include" />
+                    <e p="BumpedSpecularSmooth.shader" t="Include" />
+                  </e>
+                </e>
+                <e p="ToonShading" t="Include">
+                  <e p="Shaders" t="Include">
+                    <e p="ToonBasic.shader" t="Include" />
+                    <e p="ToonBasicOutline.shader" t="Include" />
+                    <e p="ToonLit.shader" t="Include" />
+                    <e p="ToonLitOutline.shader" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Utility" t="Include">
+                <e p="ActivateTrigger.cs" t="Include" />
+                <e p="AutoMobileShaderSwitch.cs" t="Include" />
+                <e p="AutoMoveAndRotate.cs" t="Include" />
+                <e p="CameraRefocus.cs" t="Include" />
+                <e p="CurveControlledBob.cs" t="Include" />
+                <e p="DragRigidbody.cs" t="Include" />
+                <e p="DynamicShadowSettings.cs" t="Include" />
+                <e p="FollowTarget.cs" t="Include" />
+                <e p="ForcedReset.cs" t="Include" />
+                <e p="FOVKick.cs" t="Include" />
+                <e p="FPSCounter.cs" t="Include" />
+                <e p="LerpControlledBob.cs" t="Include" />
+                <e p="ObjectResetter.cs" t="Include" />
+                <e p="ParticleSystemDestroyer.cs" t="Include" />
+                <e p="PlatformSpecificContent.cs" t="Include" />
+                <e p="SimpleActivatorMenu.cs" t="Include" />
+                <e p="SimpleMouseRotator.cs" t="Include" />
+                <e p="SmoothFollow.cs" t="Include" />
+                <e p="TimedObjectActivator.cs" t="Include" />
+                <e p="TimedObjectDestructor.cs" t="Include" />
+                <e p="WaypointCircuit.cs" t="Include" />
+                <e p="WaypointProgressTracker.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="AltUnityTester" t="Include">
+          <e p="3rdParty" t="Include">
+            <e p="nlog.4.7.9" t="Include">
+              <e p="[Content_Types].xml" t="Include" />
+              <e p="lib" t="Include">
+                <e p="netstandard2.0" t="Include">
+                  <e p="NLog.xml" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="websocket-sharp" t="Include">
+              <e p="netstandard2.0" t="Include">
+                <e p="websocket-sharp.deps.json" t="Include" />
+                <e p="websocket-sharp.xml" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="AltUnityDriver" t="Include">
+            <e p="AltUnity" t="Include">
+              <e p="AltUnityAxis.cs" t="Include" />
+              <e p="AltUnityComponent.cs" t="Include" />
+              <e p="AltUnityFieldsSelections.cs" t="Include" />
+              <e p="AltUnityMethodSelection.cs" t="Include" />
+              <e p="AltUnityObject.cs" t="Include" />
+              <e p="AltUnityObjectLight.cs" t="Include" />
+              <e p="AltUnityObjectProperty.cs" t="Include" />
+              <e p="AltUnityPropertiesSelections.cs" t="Include" />
+              <e p="AltUnityProperty.cs" t="Include" />
+              <e p="AltUnityTextureInformation.cs" t="Include" />
+              <e p="AltUnityType.cs" t="Include" />
+            </e>
+            <e p="AltUnityDevice.cs" t="Include" />
+            <e p="AltUnityDriver.asmdef" t="Include" />
+            <e p="AltUnityDriver.cs" t="Include" />
+            <e p="AltUnityExceptions.cs" t="Include" />
+            <e p="AltUnityPortForwarding.cs" t="Include" />
+            <e p="Commands" t="Include">
+              <e p="AltBaseCommand.cs" t="Include" />
+              <e p="AltUnityCommandReturningAltElement.cs" t="Include" />
+              <e p="AltUnityCommands" t="Include">
+                <e p="AddNotificationListener.cs" t="Include" />
+                <e p="AltUnityGetServerVersion.cs" t="Include" />
+                <e p="AltUnitySetServerLogging.cs" t="Include" />
+                <e p="RemoveNotificationListener.cs" t="Include" />
+              </e>
+              <e p="AltUnityGetStaticProperty.cs" t="Include" />
+              <e p="AltUnityWebSocketClient.cs" t="Include" />
+              <e p="DriverCommunicationWebSocket.cs" t="Include" />
+              <e p="FindObjects" t="Include">
+                <e p="AltUnityBaseFindObjects.cs" t="Include" />
+                <e p="AltUnityFindObject.cs" t="Include" />
+                <e p="AltUnityFindObjectAtCoordinates.cs" t="Include" />
+                <e p="AltUnityFindObjects.cs" t="Include" />
+                <e p="AltUnityFindObjectsWhichContain.cs" t="Include" />
+                <e p="AltUnityFindObjectWhichContains.cs" t="Include" />
+                <e p="AltUnityGetAllElements.cs" t="Include" />
+                <e p="AltUnityGetAllElementsLight.cs" t="Include" />
+                <e p="AltUnityGetAllLoadedScenesAndObjects.cs" t="Include" />
+                <e p="AltUnityWaitForObject.cs" t="Include" />
+                <e p="AltUnityWaitForObjectNotBePresent.cs" t="Include" />
+                <e p="AltUnityWaitForObjectWhichContains.cs" t="Include" />
+              </e>
+              <e p="IDriverCommunication.cs" t="Include" />
+              <e p="InputActions" t="Include">
+                <e p="AltUnityBeginTouch.cs" t="Include" />
+                <e p="AltUnityClickCoordinates.cs" t="Include" />
+                <e p="AltUnityEndTouch.cs" t="Include" />
+                <e p="AltUnityKeyDown.cs" t="Include" />
+                <e p="AltUnityKeysDown.cs" t="Include" />
+                <e p="AltUnityKeysUp.cs" t="Include" />
+                <e p="AltUnityKeyUp.cs" t="Include" />
+                <e p="AltUnityMoveMouse.cs" t="Include" />
+                <e p="AltUnityMoveTouch.cs" t="Include" />
+                <e p="AltUnityMultipointSwipe.cs" t="Include" />
+                <e p="AltUnityPressKey.cs" t="Include" />
+                <e p="AltUnityPressKeys.cs" t="Include" />
+                <e p="AltUnityScroll.cs" t="Include" />
+                <e p="AltUnitySwipe.cs" t="Include" />
+                <e p="AltUnityTapCoordinates.cs" t="Include" />
+                <e p="AltUnityTilt.cs" t="Include" />
+              </e>
+              <e p="IWebSocketClient.cs" t="Include" />
+              <e p="ObjectCommands" t="Include">
+                <e p="AltUnityCallComponentMethod.cs" t="Include" />
+                <e p="AltUnityCallStaticMethods.cs" t="Include" />
+                <e p="AltUnityClickElement.cs" t="Include" />
+                <e p="AltUnityDragObject.cs" t="Include" />
+                <e p="AltUnityGetAllComponents.cs" t="Include" />
+                <e p="AltUnityGetAllFields.cs" t="Include" />
+                <e p="AltUnityGetAllMethods.cs" t="Include" />
+                <e p="AltUnityGetAllProperties.cs" t="Include" />
+                <e p="AltUnityGetComponentProperty.cs" t="Include" />
+                <e p="AltUnityGetText.cs" t="Include" />
+                <e p="AltUnityObjectAction.cs" t="Include" />
+                <e p="AltUnityPointerDownFromObject.cs" t="Include" />
+                <e p="AltUnityPointerEnterObject.cs" t="Include" />
+                <e p="AltUnityPointerExitObject.cs" t="Include" />
+                <e p="AltUnityPointerUpFromObject.cs" t="Include" />
+                <e p="AltUnitySetComponentProperty.cs" t="Include" />
+                <e p="AltUnitySetText.cs" t="Include" />
+                <e p="AltUnityTapElement.cs" t="Include" />
+              </e>
+              <e p="Parameters" t="Include">
+                <e p="CommandParams.cs" t="Include" />
+              </e>
+              <e p="Screenshot" t="Include">
+                <e p="AltUnityGetPNGScreenshot.cs" t="Include" />
+                <e p="AltUnityGetScreenshot.cs" t="Include" />
+              </e>
+              <e p="UnityCommands" t="Include">
+                <e p="AltUnityDeleteKeyPlayerPref.cs" t="Include" />
+                <e p="AltUnityDeletePlayerPref.cs" t="Include" />
+                <e p="AltUnityGetAllActiveCameras.cs" t="Include" />
+                <e p="AltUnityGetAllCameras.cs" t="Include" />
+                <e p="AltUnityGetAllLoadedScenes.cs" t="Include" />
+                <e p="AltUnityGetAllScenes.cs" t="Include" />
+                <e p="AltUnityGetCurrentScene.cs" t="Include" />
+                <e p="AltUnityGetFloatKeyPlayerPref.cs" t="Include" />
+                <e p="AltUnityGetIntKeyPLayerPref.cs" t="Include" />
+                <e p="AltUnityGetStringKeyPlayerPref.cs" t="Include" />
+                <e p="AltUnityGetTimeScale.cs" t="Include" />
+                <e p="AltUnityLoadScene.cs" t="Include" />
+                <e p="AltUnitySetKeyPLayerPref.cs" t="Include" />
+                <e p="AltUnitySetTimeScale.cs" t="Include" />
+                <e p="AltUnityUnloadScene.cs" t="Include" />
+                <e p="AltUnityWaitForCurrentSceneToBe.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Logging" t="Include">
+              <e p="AltUnityLogger.cs" t="Include" />
+              <e p="AltUnityLogLevel.cs" t="Include" />
+              <e p="AltUnityLogLevelExtensions.cs" t="Include" />
+              <e p="DriverLogManager.cs" t="Include" />
+              <e p="UnityTarget.cs" t="Include" />
+            </e>
+            <e p="Notifications" t="Include">
+              <e p="AltUnityLoadSceneMode.cs" t="Include" />
+              <e p="AltUnityLoadSceneNotificationResultParams.cs" t="Include" />
+              <e p="AltUnityLogNotificationResultParams.cs" t="Include" />
+              <e p="BaseNotificationCallBacks.cs" t="Include" />
+              <e p="INotificationCallbacks.cs" t="Include" />
+              <e p="NotificationType.cs" t="Include" />
+            </e>
+            <e p="UnityStruct" t="Include">
+              <e p="AltUnityColor.cs" t="Include" />
+              <e p="AltUnityKeyCode.cs" t="Include" />
+              <e p="AltUnityVector.cs" t="Include" />
+              <e p="PLayerPrefKeyType.cs" t="Include" />
+            </e>
+          </e>
+          <e p="AltUnityServer" t="Include">
+            <e p="AltUnityId.cs" t="Include" />
+            <e p="AltUnityInstrumentationSettings.cs" t="Include" />
+            <e p="AltUnityKeyMapping.cs" t="Include" />
+            <e p="AltUnityMockUpPointerInputModule.cs" t="Include" />
+            <e p="AltUnityRunner.cs" t="Include" />
+            <e p="AltUnityTester.asmdef" t="Include" />
+            <e p="AltUnityTextureScale.cs" t="Include" />
+            <e p="Commands" t="Include">
+              <e p="AltUnityCommand.cs" t="Include" />
+              <e p="AltUnityCommands" t="Include">
+                <e p="AltUnityActivateNotificationCommand.cs" t="Include" />
+                <e p="AltUnityDeactivateNotificationCommand.cs" t="Include" />
+                <e p="AltUnityGetServerVersionCommand.cs" t="Include" />
+                <e p="AltUnityInvalidCommand.cs" t="Include" />
+                <e p="AltUnitySetServerLoggingCommand.cs" t="Include" />
+              </e>
+              <e p="AltUnityCommandWithWait.cs" t="Include" />
+              <e p="AltUnityNotification" t="Include">
+                <e p="AltUnityApplicationPausedNotification.cs" t="Include" />
+                <e p="AltUnityLoadSceneNotification.cs" t="Include" />
+                <e p="AltUnityLogNotification.cs" t="Include" />
+                <e p="AltUnityUnloadSceneNotification.cs" t="Include" />
+                <e p="BaseNotification.cs" t="Include" />
+              </e>
+              <e p="FindObject" t="Include">
+                <e p="AltUnityBaseClassFindObjectsCommand.cs" t="Include" />
+                <e p="AltUnityFindObjectAtCoordinates.cs" t="Include" />
+                <e p="AltUnityFindObjectCommand.cs" t="Include" />
+                <e p="AltUnityFindObjectsCommand.cs" t="Include" />
+                <e p="AltUnityFindObjectsLightCommand.cs" t="Include" />
+                <e p="AltUnityGetAllCamerasCommand.cs" t="Include" />
+                <e p="AltUnityGetAllLoadedScenesAndObjectsCommand.cs" t="Include" />
+                <e p="AltUnityGetAllScenesCommand.cs" t="Include" />
+                <e p="AltUnityGetCurrentSceneCommand.cs" t="Include" />
+                <e p="PathSelector.cs" t="Include" />
+              </e>
+              <e p="InputActions" t="Include">
+                <e p="AltUnityBeginTouchCommand.cs" t="Include" />
+                <e p="AltUnityClickCoordinatesCommand.cs" t="Include" />
+                <e p="AltUnityClickElementCommand.cs" t="Include" />
+                <e p="AltUnityDragObjectCommand.cs" t="Include" />
+                <e p="AltUnityEndTouchCommand.cs" t="Include" />
+                <e p="AltUnityKeyDownCommand.cs" t="Include" />
+                <e p="AltUnityKeysDownCommand.cs" t="Include" />
+                <e p="AltUnityKeysUpCommand.cs" t="Include" />
+                <e p="AltUnityKeyUpCommand.cs" t="Include" />
+                <e p="AltUnityMoveMouseCommand.cs" t="Include" />
+                <e p="AltUnityMoveTouchCommand.cs" t="Include" />
+                <e p="AltUnityMultipointSwipeCommand.cs" t="Include" />
+                <e p="AltUnityPointerDownFromObjectCommand.cs" t="Include" />
+                <e p="AltUnityPointerEnterObjectCommand.cs" t="Include" />
+                <e p="AltUnityPointerExitObjectCommand.cs" t="Include" />
+                <e p="AltUnityPointerUpFromObjectCommand.cs" t="Include" />
+                <e p="AltUnityPressKeyboardKeyCommand.cs" t="Include" />
+                <e p="AltUnityPressKeyboardKeysCommand.cs" t="Include" />
+                <e p="AltUnityScrollCommand.cs" t="Include" />
+                <e p="AltUnitySwipeCommand.cs" t="Include" />
+                <e p="AltUnityTapCoordinatesCommand.cs" t="Include" />
+                <e p="AltUnityTapElementCommand.cs" t="Include" />
+                <e p="AltUnityTiltCommand.cs" t="Include" />
+              </e>
+              <e p="ObjectCommands" t="Include">
+                <e p="AltUnityCallComponentMethodForObjectCommand.cs" t="Include" />
+                <e p="AltUnityContractResolver.cs" t="Include" />
+                <e p="AltUnityGetAllComponentsCommand.cs" t="Include" />
+                <e p="AltUnityGetAllFieldsCommand.cs" t="Include" />
+                <e p="AltUnityGetAllMethodsCommand.cs" t="Include" />
+                <e p="AltUnityGetAllPropertiesCommand.cs" t="Include" />
+                <e p="AltUnityGetComponentPropertyCommand.cs" t="Include" />
+                <e p="AltUnityGetTextCommand.cs" t="Include" />
+                <e p="AltUnityReflectionMethodsCommand.cs" t="Include" />
+                <e p="AltUnitySetComponentPropertyCommand.cs" t="Include" />
+                <e p="AltUnitySetTextCommand.cs" t="Include" />
+              </e>
+              <e p="Screenshot" t="Include">
+                <e p="AltUnityBaseScreenshotCommand.cs" t="Include" />
+                <e p="AltUnityGetScreenshotCommand.cs" t="Include" />
+                <e p="AltUnityGetScreenshotPNGCommand.cs" t="Include" />
+                <e p="AltUnityHighlightSelectedObjectCommand.cs" t="Include" />
+                <e p="AltUnityHightlightObjectFromCoordinatesCommand.cs" t="Include" />
+              </e>
+              <e p="UnityCommands" t="Include">
+                <e p="AltUnityDeleteKeyPlayerPrefCommand.cs" t="Include" />
+                <e p="AltUnityDeletePlayerPrefCommand.cs" t="Include" />
+                <e p="AltUnityGetAllLoadedScenesCommand.cs" t="Include" />
+                <e p="AltUnityGetKeyPlayerPrefCommand.cs" t="Include" />
+                <e p="AltUnityGetTimeScaleCommand.cs" t="Include" />
+                <e p="AltUnityLoadSceneCommand.cs" t="Include" />
+                <e p="AltUnitySetKeyPlayerPrefCommand.cs" t="Include" />
+                <e p="AltUnitySetTimeScaleCommand.cs" t="Include" />
+                <e p="AltUnityUnloadSceneCommand.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Communication" t="Include">
+              <e p="AltClientWebSocketHandler.cs" t="Include" />
+              <e p="AltResponseQueue.cs" t="Include" />
+              <e p="AltServerWebSocketHandler.cs" t="Include" />
+              <e p="AltWebGLWebSocketHandler.cs" t="Include" />
+              <e p="BaseWebSocketHandler.cs" t="Include" />
+              <e p="CommandHandler.cs" t="Include" />
+              <e p="ICommandHandler.cs" t="Include" />
+              <e p="ICommunication.cs" t="Include" />
+              <e p="WebSocketClientCommunication.cs" t="Include" />
+              <e p="WebSocketServerCommunication.cs" t="Include" />
+              <e p="WebSocketWebGlCommunication.cs" t="Include" />
+            </e>
+            <e p="FindObjectViaRayCast.cs" t="Include" />
+            <e p="Input.cs" t="Include" />
+            <e p="InputController.cs" t="Include" />
+            <e p="Logging" t="Include">
+              <e p="ServerLogManager.cs" t="Include" />
+            </e>
+            <e p="NewInputSystem.cs" t="Include" />
+            <e p="UI" t="Include">
+              <e p="AltUnityDialog.cs" t="Include" />
+              <e p="AltUnityInputMark.cs" t="Include" />
+              <e p="AltUnityInputsVisualizer.cs" t="Include" />
+              <e p="AltUnityPrefabDrag.cs" t="Include" />
+            </e>
+            <e p="UnityStruct" t="Include">
+              <e p="AltUnityVector.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Editor" t="Include">
+            <e p="AltUnityBuilder.cs" t="Include" />
+            <e p="AltUnityEditorConfiguration.cs" t="Include" />
+            <e p="AltUnityInspectorPage.cs" t="Include" />
+            <e p="AltUnityMyScenes.cs" t="Include" />
+            <e p="AltUnityMyTest.cs" t="Include" />
+            <e p="AltUnityPlatform.cs" t="Include" />
+            <e p="AltUnityTesterEditor.asmdef" t="Include" />
+            <e p="AltUnityTesterEditorWindow.cs" t="Include" />
+            <e p="AltUnityTestRunListener.cs" t="Include" />
+            <e p="AltUnityTestRunner.cs" t="Include" />
+            <e p="DefaultTestExample.txt" t="Include" />
+            <e p="Logging" t="Include">
+              <e p="EditorLogManager.cs" t="Include" />
+            </e>
+          </e>
+          <e p="link.xml" t="Include" />
+          <e p="ReadMe.txt" t="Include" />
+          <e p="Shader" t="Include">
+            <e p="OutlineShader.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Resources" t="Include">
+          <e p="AltUnityTester" t="Include">
+            <e p="AltUnityTesterInputAxisData.json" t="Include" />
+          </e>
+          <e p="DataScripts" t="Include">
+            <e p="EnemyData.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Script" t="Include">
+          <e p="animationStateController.cs" t="Include" />
+          <e p="ControllerManager.cs" t="Include" />
+          <e p="ControllerWarning.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+          <e p="SplashScreen.cs" t="Include" />
+        </e>
+        <e p="Test" t="Include">
+          <e p="Editor" t="Include">
+            <e p="SampleTest.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="ChibiRobots.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/Bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_ChibiRobots.1363243824.00" t="ExcludeRecursive" />
+  </component>
+</project>

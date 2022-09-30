@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Gym_1.unity
+    guid: a84e8643589c9084183d46e9529b95df
+  - enabled: 0
     path: Assets/Scenes/Splash.unity
     guid: 7dbc5381ce44896498c53d05eec9cd6c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ControllerWarning.unity
     guid: 9ec6527aaeea3e84892da70287e0f953
   m_configObjects:
